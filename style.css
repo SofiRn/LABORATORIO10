@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: flex-start;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 13px;
+    align-items: center;
+
+}
+
+#fixed {
+    position: fixed;
+    display: flex;
+    width: 100%;
+}
+
+.card_row{
+    gap: 16px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+
+    z-index: 2;
+}
+.thumbnail{
+    width: 180px;
+    height: 240px;
+    border-radius: 8px;
+}
+
+.img1 {
+    height: 30px;
+}
+
+.items {
+    margin-left: 20px;
+}
+
+#perfil {
+    margin-right: 40px;
+}
+
+.portada {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    /*background: red;*/
+}
+.cover-image{
+    width: 100%;
+
+
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.501);
+    border: transparent;
+    border-radius: 20px;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.img2 {
+    width: 50px;
+    height: 50px;
+}
+
+.play-save {
+    display: flex;
+    direction: row;
+
+}
+
+#save {
+    margin-left: 50px;
+}
+
+.casadepapel {
+    margin-top: 350px;
+    margin-left: 40px;
+
+}
+
+.texto {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    margin-top: -400px;
+    margin-left: 30px;
+}
+
+#rotings {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.descripcion {
+position: absolute;
+    font-size: 17px;
+    z-index: 1;
+    margin-top: -300px;
+    margin-left: 30px;
+}
+
+.recomendadas {
+    width: 100%;
+    height: 500px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 350px;
+    margin-left: 30px;
+}
+
+.otro {
+    width: 1200px;
+    scrollbar-width: none;
+
+}
+
+.recomendado {
+    justify-content: left;
+
+}
+
+.stranger {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.estrellas {
+    width: 20px;
+    height: 20px;
+
+}
+
+.calificacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.recomendado {
+    display: flex;
+    flex-direction: row;
+}
+
+#lucifer,
+#emily,
+#sabrina {
+    margin-left: 50px;
+}
+
+#save {
+    margin-left: 17px;
+}
+
+#trending {
+    margin-left: 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+.edad {
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.degrade {
+    /* background-image:url("IMAGENES/Rectangle\ 10.png");*/
+    position: absolute;
+    background-image: linear-gradient(to bottom, #00000000, #000000ae, #000);
+    width: 5000px;
+    height: 800px;
+    margin-top: -650px;
+    margin-left: -500px;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.transicion {
+    position: relative;
+    z-index: 1;
+}
+
+.transicion:hover {
+    box-shadow: 1.1rem 1.1rem 2rem rgba(53, 53, 53, 0.466);
+    z-index: 2;
+}
+
+#recomendado {
+    margin-left: 0;
+    margin-top: -100px;
+    position: absolute;
+}
+
